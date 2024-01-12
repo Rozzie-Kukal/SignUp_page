@@ -1,0 +1,69 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Moirai One', cursive;
+    font-size: 40px;
+}
+
+.top-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1,100px);
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a {
+    color: purple;
+    font-size: 20px;
+    font-family: 'Amarante', cursive;
+    font-weight: 20;
+}
+
+.SignUp-block {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-family: 'Amarante', cursive;
+    border: 1px solid black;
+    border-radius: 35%;
+    padding: 40px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    background-image: url("https://cdn.dribbble.com/users/399094/screenshots/11932290/gooey-react.gif");
+
+}
+
+#SignUp {
+    font-size: 35px;
+}
+
+.trouble {
+    text-align: end;
+}
+
+body {
+    background-image: url("https://camo.githubusercontent.com/4ff53e3af0fe34883bb91ccbdade7d9d72e77ef215d85378c5f764e15b00e7b5/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6672616e63696e696c646f2f696d6167652f75706c6f61642f76313536383636303935392f477275706f5f312e706e67");
+  
+}
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    margin: 10px;
+    
+}
+
+
+
+.one {
+    font-size: 20px;
+}
